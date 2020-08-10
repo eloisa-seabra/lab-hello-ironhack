@@ -4,7 +4,7 @@ import './App.css';
 
 function MessageComponent() {
   return (
-    <section>
+    <section class="main-section">
       <h1>Say hello to ReactJS</h1>
       <p>
         You will learn a FrontEnd framework from scratch, to become an Ninja
@@ -19,8 +19,9 @@ function MessageComponent() {
 function Nav() {
   return (
     <div>
-      <nav>
+      <nav className="nav">
         <img src="images/ironhack-logo.svg" className="App-logo" alt="logo" />
+        <img src="images/menu-top.svg" className="App-burger" alt="logo" />
       </nav>
     </div>
   );
